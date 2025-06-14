@@ -6,7 +6,8 @@
 0 for scissors,
 '''
 
-import random  #to make the computer make any random choices
+import random 
+#to make the computer make any random choices
 
 computer = random.choice([-1, 0, 1])
 youstr = input("Enter your choice: ") # s or p or c
